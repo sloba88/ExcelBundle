@@ -29,26 +29,6 @@
         "symfony/browser-kit": "~2.1",
         "sensio/framework-extra-bundle": "~2.1"
     },
-    "repositories": [
-    {
-        "type": "package",
-        "package": {
-            "name": "sloba88/excelbundle",
-            "version": "dev-master",
-            "source": {
-                "url": "git://github.com/sloba88/ExcelBundle.git",
-                "type": "git",
-                "reference": "master"
-            },
-            "autoload": {
-                "psr-0" : {
-                    "sloba88\\ExcelBundle" : "src"
-                }
-            }
-        }
-    }
-],
-
     "autoload": {
         "psr-0": {
             "sloba88\\ExcelBundle": ""
