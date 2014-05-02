@@ -38,7 +38,7 @@
             "dev-master": "2.0.x-dev"
         }
     },
-    "target-dir": "sloba88/ExcelBundle",
+    "target-dir": "Liuggio/ExcelBundle",
     "config": {
         "bin-dir": "bin"
     }
