@@ -15,10 +15,11 @@
     "keywords": ["xls","Excel", "symfony2", "bundle"],
     "homepage": "http://www.welcometothebundle.com",
     "license": "MIT",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.2",
         "symfony/framework-bundle": "~2.1",
-        "phpoffice/phpexcel": "dev-master"
+        "phpoffice/phpexcel": "dev-develop"
     },
     "require-dev": {
         "phpunit/PHPUnit": "3.7.*",
