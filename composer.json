@@ -1,0 +1,46 @@
+{
+    "name": "sloba88/excelbundle",
+    "description": "Forked from liuggio/excelbundle",
+    "authors": [
+        {
+            "name": "Giulio De Donato",
+            "email": "liuggio@gmail.com"
+        },
+        {
+            "name": "ExcelBundle Contributors",
+            "homepage": "https://github.com/liuggio/ExcelBundle#contributors"
+        }
+    ],
+
+    "keywords": ["xls","Excel", "symfony2", "bundle"],
+    "homepage": "http://www.welcometothebundle.com",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "~2.1",
+        "phpoffice/phpexcel": "dev-develop"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "3.7.*",
+        "symfony/finder": "~2.0",
+        "symfony/form": "~2.1",
+        "symfony/class-loader": "~2.1",
+        "symfony/validator": "~2.1",
+        "symfony/browser-kit": "~2.1",
+        "sensio/framework-extra-bundle": "~2.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "sloba88\\ExcelBundle": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    },
+    "target-dir": "sloba88/ExcelBundle",
+    "config": {
+        "bin-dir": "bin"
+    }
+}
